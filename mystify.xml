@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<screensaver name="mystify" _label="Mystify" gl="no">
+
+  <command arg=""/>
+
+  <number id="polygons" type="spinbutton" arg="%"
+          _label="Number of polygons" low="1" high="8" default="2"/>
+
+  <number id="step" type="spinbutton" arg="%"
+          _label="Step distance" low="6" high="16" default="10"/>
+
+  <number id="vertices" type="spinbutton" arg="-ibw %"
+          _label="Vertices per polygon" low="3" high="8" default="4"/>
+
+  <number id="layers" type="spinbutton" arg="-ibw %"
+          _label="Polygons per shape (more than 1 creates trailing polygons)" low="1" high="50" default="12"/>
+
+   <boolean id="fade" _label="Fade trails to black" arg-set="true" arg-unset="false"/>
+
+  <xscreensaver-updater />
+
+  <_description>
+Clone of Windows 95 screensaver "Mistify Your Mind"
+
+Written by Tyler Adam, 2014.
+  </_description>
+</screensaver>
