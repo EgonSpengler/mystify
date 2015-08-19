@@ -77,7 +77,7 @@ void drawPolygon(Display *dpy, Drawable d, GC g, polygon p){
 }
 
 void drawShape(Display *dpy, Drawable d, GC g, shape s, int window_width, int window_height){
-	
+
 	for(int x = opts.layers-1; x >= 0; x--){
 		if(s.polygons[x].vertices != NULL)
 			drawPolygon(dpy, d, g, s.polygons[x]);
@@ -142,8 +142,8 @@ int main(int argc, char* argv[]) {
 		case 0:
 			if(option_index < 5)
 				defaults[option_index] = atoi(optarg);
-			else
-				set root option
+			//else
+				//set root option
 			break;
 		case 'f':
 			opts.fade = (strncmp("true", optarg, 4) == 0) ? 1 : 0;

@@ -5,14 +5,14 @@
  * the above copyright notice appear in all copies and that both that
  * copyright notice and this permission notice appear in supporting
  * documentation.  No representations are made about the suitability of this
- * software for any purpose.  It is provided "as is" without express or 
+ * software for any purpose.  It is provided "as is" without express or
  * implied warranty.
  */
 
 #ifndef __SCREENHACK_H__
 #define __SCREENHACK_H__
 
-#include "screenhackI.h"
+#include "screenhack.h"
 
 /* In an Xlib world, we define two global symbols here:
    a struct in `MODULENAME_xscreensaver_function_table',
